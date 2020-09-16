@@ -1,9 +1,11 @@
 package com.devsuperior.dspesquisa.entities.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
-import com.devsuperior.dspesquisa.entities.Game;
+import com.devsuperior.dspesquisa.entities.Genre;
 
-public interface GenreRepository extends JpaRepository<Game, Long> {
+@Repository
+public interface GenreRepository extends JpaRepository<Genre, Long> {
 
 }
