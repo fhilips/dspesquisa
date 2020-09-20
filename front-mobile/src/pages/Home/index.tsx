@@ -23,7 +23,7 @@ const Home = () => {
                     style={styles.gamerImage}
                 />
                 <Text style={styles.title}>Vote agora!</Text>
-                <Text style={styles.subTitle}>Qual é o se1u jogo favorito!</Text>
+                <Text style={styles.subTitle}>Qual é o seu jogo favorito!</Text>
             </View>
             <View style={styles.footer}>
                 <RectButton style={styles.button} onPress={handleOnPress}>
