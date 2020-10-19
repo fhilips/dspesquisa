@@ -1,5 +1,6 @@
 .home-container {
-    margin-top: 150px;
+    margin-top: 75px;
+    margin-bottom: 75px;
     display: flex;
     justify-content: center;
   }
@@ -97,6 +98,7 @@
   
     .home-image {
       display: none;
+      width: 100%;
     }
   
     .home-text {
