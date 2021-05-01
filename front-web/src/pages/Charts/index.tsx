@@ -27,7 +27,7 @@ const Charts = () => {
     const [barChartData, setBarChartData] = useState<BarChartData[]>([]);
     const [platChartData, setPlatformData] = useState<PieChartData>(inicialPieData);
     const [genderData, setGenderData] = useState<PieChartData>(inicialPieData);
-
+    const n = "750";
     useEffect(() => {
         async function getData() {
             const recordsResponse = await axios.get(`${BASE_URL}/records`);
@@ -54,11 +54,12 @@ const Charts = () => {
                         Jogos mais votados
                     </h1>
                     <div className="games-container">
+                        
                         <Chart
                             options={barOptions}
                             type="bar"
-                            width="900"
-                            height="650"
+                            width={n}
+                            height="600"
                             series={[{ data: barChartData }]}
                         />
                     </div>
