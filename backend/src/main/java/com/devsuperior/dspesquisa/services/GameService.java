@@ -21,9 +21,7 @@ public class GameService {
 	public List<GameDTO> findAll(){
 		List<Game> list = repository.findAll();
 		return list.stream().map(x -> new GameDTO(x)).collect(Collectors.toList());
-		// .stream - Transforma a lista em uma stream(aceita funçoes de alta ordem e lambda) 
-		// .map - Cada objeto x da lista é passado para construtor da GameDTO, instanciando-os.
-		// .collect(Collectors.toList()) - tranforma o stream de volta em uma lista
+		
 	}
 	
 }
