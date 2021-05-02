@@ -10,9 +10,6 @@ DsPesquisa / Big Game Survey é uma aplicação full stack web e mobile constru�
 
 A aplicação consiste em uma pesquisa de preferência de games, onde os dados são coletados no app mobile, e depois são listados no app web, que também apresenta um dashboard com gráficos baseados nestes dados.
 
-## Layout mobile
-![Mobile 1](https://github.com/acenelio/assets/raw/main/sds1/mobile1.png) ![Mobile 2](https://github.com/acenelio/assets/raw/main/sds1/mobile2.png)
-
 ## Layout web
 ![dsdeliver](https://github.com/fhilips/dspesquisa/blob/master/front-web/src/assets/dspesquisa-telas.gif)
 
@@ -20,6 +17,9 @@ A aplicação consiste em uma pesquisa de preferência de games, onde os dados s
 
 ![Web 2](https://github.com/acenelio/assets/raw/main/sds1/web2.png)
 
+
+## Layout mobile
+![Mobile 1](https://github.com/acenelio/assets/raw/main/sds1/mobile1.png) ![Mobile 2](https://github.com/acenelio/assets/raw/main/sds1/mobile2.png)
 
 # Tecnologias utilizadas
 ## Back end
